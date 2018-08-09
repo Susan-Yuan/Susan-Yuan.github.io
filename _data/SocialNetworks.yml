@@ -6,6 +6,22 @@
 #            site.social-network-links.<key>
 #   icon: Specify a valid fontawesome icon class
 
+wechat: #need to modify later
+  name: "微信"
+  baseURL: "https://kanglovesbing.com/"
+  icon: "fa-weixin"
+
+zhihu:
+  name: "知乎"
+  baseURL: "https://www.zhihu.com/people/"
+  icon: "fa-zhihu"
+
+#can not find douban icon in fontawesome icon class
+#douban:
+#  name: "豆瓣"
+#  baseURL: ""
+#  icon:
+
 facebook:
   name: "Facebook"
   baseURL: "https://www.facebook.com/"
