@@ -8,7 +8,7 @@
 
 wechat: #need to modify later
   name: "微信"
-  baseURL: "https://kanglovesbing.com/"
+  baseURL: "/"
   icon: "fa-weixin"
 
 zhihu:
