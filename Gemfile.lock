@@ -217,6 +217,7 @@ DEPENDENCIES
   github-pages (= 163)
   jekyll (~> 3.5)
   jekyll-paginate
+  jemoji
 
 BUNDLED WITH
    1.16.3

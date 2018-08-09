@@ -7,3 +7,4 @@ gem "github-pages", '163', group: :jekyll_plugins
 gem 'jekyll-paginate'
 
 gem "jekyll", "~> 3.5"
+gem 'jemoji'
