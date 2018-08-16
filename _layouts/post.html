@@ -36,7 +36,7 @@ layout: base
       </article>
 
       {% if page.tags.size > 0 %}
-        <div class="blog-tags">
+        <div class="blog-tags" style="float: left; display: inline; margin-top: 10px">
           Tags:
           {% if site.link-tags %}
           {% for tag in page.tags %}
@@ -51,8 +51,7 @@ layout: base
       {% if page.social-share %}
         {% include social-share.html %}
       {% endif %}
-        <div class="bdsharebuttonbox">
-          <br/>
+        <div class="bdsharebuttonbox" style="float: right; display: inline">
           <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
           <a href="#" class="bds_douban" data-cmd="douban" title="分享到豆瓣"></a>
           <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到微博"></a>
